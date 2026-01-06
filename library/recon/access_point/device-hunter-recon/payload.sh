@@ -1,7 +1,7 @@
-#!/bin/bash
+is this correct - #!/bin/bash
 # Title: Device Hunter (True Auto-Hunt + SSID)
-# Description: Auto-hunt the most recently seen AP from Recon (DB if available, otherwise Recon API) and display SSID
-# Author: RocketGod + Auto-Hunt hardening + SSID display.
+# Description: Auto-hunt the most recently seen AP from Recon and display SSID
+# Author: RocketGod + Notorious Squirrel (sidekick)
 
 INPUT=/dev/input/event0
 DB_CANDIDATES=(
@@ -207,8 +207,18 @@ make_bar() {
 
 track_target() {
   local mac="$1"
-  local ssid
-  ssid=$(get_ssid_for_mac "$mac")
+  local ssid=""
+
+  # If this payload was launched from a selected AP in Recon on the Pager,
+  # prefer the SSID that Recon reported for that AP to avoid mismatches.
+  if [ "$mac" = "$_RECON_SELECTED_AP_MAC_ADDRESS" ] || [ "$mac" = "$_RECON_SELECTED_AP_BSSID" ]; then
+    if [ -n "$_RECON_SELECTED_AP_SSID" ]; then
+      ssid="$_RECON_SELECTED_AP_SSID"
+    fi
+  fi
+
+  # Fallback: derive SSID from Recon API / recon.db
+  [ -z "$ssid" ] && ssid=$(get_ssid_for_mac "$mac")
 
   LOG ""
   LOG "HUNTING:"
@@ -314,3 +324,38 @@ LOG "$TARGET_MAC"
 
 track_target "$TARGET_MAC"
 LOG "Done!"
+
+Yes, that script looks correct and includes both fixes:
+
+1. **Target MAC selection respects the AP you chose in Recon**  
+```bash
+   if looks_like_mac "$_RECON_SELECTED_AP_MAC_ADDRESS"; then
+     TARGET_MAC="$_RECON_SELECTED_AP_MAC_ADDRESS"
+   elif looks_like_mac "$_RECON_SELECTED_AP_BSSID"; then
+     TARGET_MAC="$_RECON_SELECTED_AP_BSSID"
+   else
+     TARGET_MAC="$(get_target_from_db 2>/dev/null)" || true
+     if ! looks_like_mac "$TARGET_MAC"; then
+       TARGET_MAC="$(get_target_from_recon_api 2>/dev/null)" || true
+     fi
+   fi
+```
+2. **SSID is taken from the selected AP when possible, so it matches the MAC:**
+```bash
+   track_target() {
+     local mac="$1"
+     local ssid=""
+
+     # Prefer Pager Recon-selected SSID if MAC matches
+     if [ "$mac" = "$_RECON_SELECTED_AP_MAC_ADDRESS" ] || [ "$mac" = "$_RECON_SELECTED_AP_BSSID" ]; then
+       if [ -n "$_RECON_SELECTED_AP_SSID" ]; then
+         ssid="$_RECON_SELECTED_AP_SSID"
+       fi
+     fi
+
+     # Fallback if that’s empty
+     [ -z "$ssid" ] && ssid=$(get_ssid_for_mac "$mac")
+     ...
+   }
+```
+
