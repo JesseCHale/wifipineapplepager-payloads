@@ -1,0 +1,216 @@
+              _                                                   _
+         .k$$$$$g,                                           ,g$$$$$k.
+      .k$$$$$$$$$$$a.                                     .a$$$$$$$$$$$k.
+    .J$$$$$?'   `?$?^?,                                 ,?^?$?`   `?$$$$$L.
+   JS$$SI!a,  _.JS$   ?,                               ,?   $SL._  ,a$!IS$$SL
+  k$$$SI!:?$$$$$$$$$xu$$j                              j$$ux$$$$$$$$$?:!IS$$$k
+ :I$$SI:J$$?*"$$$$4^?*?:                               :?*?^4$$$$"*?$$L:iIS$$I:
+ :IS$$SiJ?`  _.'$?`/'   ':                           :'    '/'?$'._  `?LiS$$SI:
+  ?ISSik? _        ',    `                              .    ,'       _ ?kiSSI?
+    ?i$?` _   k$        .                               :.        $k   _ `?$i?
+      '?I:-?z$$I   _._.'                                  ._._   I$$z?-:I?'
+     '*?- '?$$a louSxuS?                               ?xuSxuol a$$?' -?*'
+           i$$$$$$$$$$$S                               S$$$$$$$$$$$i
+              ?$$$?-                                       -?$$$?
+
+     ██░ ██  ▄▄▄       ██▓    ▓█████  ██░ ██  ▒█████   █    ██  ███▄    █ ▓█████▄
+    ▓██░ ██▒▒████▄    ▓██▒    ▓█   ▀ ▓██░ ██▒▒██▒  ██▒ ██  ▓██▒ ██ ▀█   █ ▒██▀ ██▌
+    ▒██▀▀██░▒██  ▀█▄  ▒██░    ▒███   ▒██▀▀██░▒██░  ██▒▓██  ▒██░▓██  ▀█ ██▒░██   █▌
+    ░▓█ ░██ ░██▄▄▄▄██ ▒██░    ▒▓█  ▄ ░▓█ ░██ ▒██   ██░▓▓█  ░██░▓██▒  ▐▌██▒░▓█▄   ▌
+    ░▓█▒░██▓ ▓█   ▓██▒░██████▒░▒████▒░▓█▒░██▓░ ████▓▒░▒▒█████▓ ▒██░   ▓██░░▒████▓
+     ▒ ░░▒░▒ ▒▒   ▓▒█░░ ▒░▓  ░░░ ▒░ ░ ▒ ░░▒░▒░ ▒░▒░▒░ ░▒▓▒ ▒ ▒ ░ ▒░   ▒ ▒  ▒▒▓  ▒
+     ▒ ░▒░ ░  ▒   ▒▒ ░░ ░ ▒  ░ ░ ░  ░ ▒ ░▒░ ░  ░ ▒ ▒░ ░░▒░ ░ ░ ░ ░░   ░ ▒░ ░ ▒  ▒
+     ░  ░░ ░  ░   ▒     ░ ░      ░    ░  ░░ ░░ ░ ░ ▒   ░░░ ░ ░    ░   ░ ░  ░ ░  ░
+     ░  ░  ░      ░  ░    ░  ░   ░  ░ ░  ░  ░    ░ ░     ░              ░    ░
+
+              _                                                   _
+         .k$$$$$g,                                           ,g$$$$$k.
+      .k$$$$$$$$$$$a.                                     .a$$$$$$$$$$$k.
+    .J$$$$$?'   `?$?^?,                                 ,?^?$?`   `?$$$$$L.
+   JS$$SI!a,  _.JS$   ?,                               ,?   $SL._  ,a$!IS$$SL
+  k$$$SI!:?$$$$$$$$$xu$$j                              j$$ux$$$$$$$$$?:!IS$$$k
+ :I$$SI:J$$?*"$$$$4^?*?:                              :?*?^4$$$$"*?$$L:iIS$$I:
+ :IS$$SiJ?`  _.'$?`/'  ':                            :'    '/'?$'._  `?LiS$$SI:
+  ?ISSik? _        ',  .                                .    ,'       _ ?kiSSI?
+    ?i$?` _  k$        .:                              :.        $k   _ `?$i?
+      '?I:-?z$$I   _._.'                                  ._._   I$$z?-:I?'
+     '*?- '?$$a louSxuS?                               ?xuSxuol a$$?' -?*'
+           i$$$$$$$$$$$S                               S$$$$$$$$$$$i
+              ?$$$?-                                       -?$$$?
+
+================================================================================
+          WIFI PINEAPPLE PAGER PAYLOADS - HALEHOUND EDITION
+================================================================================
+  Repository:   https://github.com/JesseCHale/wifipineapplepager-payloads
+  Author:       Jesse C. Hale (JesseCHale)
+  Website:      https://github.com/JesseCHale
+================================================================================
+
+
+                              MIT LICENSE
+
+Copyright (c) 2026 Jesse C. Hale (JesseCHale)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+================================================================================
+                           PROJECT DESCRIPTION
+================================================================================
+
+This repository contains payloads designed for the WiFi Pineapple Pager, a
+portable penetration testing device. These payloads enable security
+professionals to conduct authorized assessments of wireless networks and
+connected systems.
+
+The WiFi Pineapple Pager Payloads collection includes:
+  - Reconnaissance and enumeration scripts
+  - Network analysis tools
+  - Exfiltration demonstrations
+  - Automation utilities
+  - Educational examples
+
+
+================================================================================
+                            SCOPE OF LICENSE
+================================================================================
+
+This license applies to all contents of this repository, including but not
+limited to:
+
+  - All payload scripts and source code
+  - Configuration files and templates
+  - Documentation and README files
+  - Shell scripts and automation tools
+  - Supporting libraries developed for this project
+  - ASCII art and branding assets
+
+Third-party components included in this repository may be subject to their
+own licensing terms. Where applicable, individual payload directories may
+contain their own LICENSE files that govern those specific components.
+
+
+================================================================================
+                        ATTRIBUTION REQUIREMENTS
+================================================================================
+
+When using, modifying, or distributing this software, the following
+attribution requirements apply:
+
+FOR DIRECT USE:
+  - Retain this LICENSE file in any distribution
+  - Maintain copyright notices in source files
+
+FOR MODIFICATIONS AND FORKS:
+  - Include original copyright notice
+  - Clearly indicate modifications made
+  - Suggested attribution format:
+
+    "Based on WiFi Pineapple Pager Payloads by Jesse C. Hale (JesseCHale)"
+    "Original: https://github.com/JesseCHale/wifipineapplepager-payloads"
+
+FOR DERIVATIVE WORKS:
+  - You may create derivative works under the same MIT license
+  - Original attribution must be preserved
+  - You may add your own copyright for your modifications
+
+
+================================================================================
+                          CONTRIBUTION TERMS
+================================================================================
+
+By submitting contributions to this repository (via pull requests, issues,
+or other means), you agree to the following:
+
+  1. Your contributions are provided under the same MIT License
+  2. You have the right to submit the contribution
+  3. You grant the project maintainer rights to use, modify, and distribute
+     your contribution as part of this project
+  4. Contributions become part of the collective work and are subject to
+     this license
+
+Contributions are welcome and encouraged. Please ensure your submissions:
+  - Follow the existing code style and structure
+  - Include appropriate documentation
+  - Are tested on compatible hardware when possible
+
+
+================================================================================
+                     DISCLAIMER & RESPONSIBLE USE
+================================================================================
+
+IMPORTANT: READ THIS SECTION CAREFULLY
+
+These payloads are provided strictly for:
+
+  [+] AUTHORIZED PENETRATION TESTING
+      Use only on systems and networks you own or have explicit written
+      permission to test.
+
+  [+] SECURITY RESEARCH
+      For studying vulnerabilities and developing defensive measures in
+      controlled environments.
+
+  [+] EDUCATIONAL PURPOSES
+      Learning about wireless security, network protocols, and ethical
+      hacking methodologies.
+
+  [+] PROFESSIONAL SECURITY ASSESSMENTS
+      Conducted by qualified professionals with proper authorization
+      and scope agreements.
+
+THE FOLLOWING USES ARE PROHIBITED:
+
+  [-] Unauthorized access to computer systems or networks
+  [-] Interception of communications without consent
+  [-] Any activity that violates local, state, federal, or international law
+  [-] Malicious attacks against individuals or organizations
+  [-] Use against systems without explicit written authorization
+
+LEGAL NOTICE:
+Unauthorized access to computer systems is a crime in most jurisdictions.
+Users are solely responsible for ensuring compliance with all applicable
+laws and regulations. The author(s) assume NO LIABILITY for any misuse,
+damage, or legal consequences arising from the use of this software.
+
+By using this software, you acknowledge that:
+  - You understand the legal implications of penetration testing
+  - You will obtain proper authorization before any testing
+  - You accept full responsibility for your actions
+  - The authors bear no responsibility for unauthorized use
+
+
+================================================================================
+                              CONTACT
+================================================================================
+
+  GitHub:       https://github.com/JesseCHale
+  Repository:   https://github.com/JesseCHale/wifipineapplepager-payloads
+  Issues:       https://github.com/JesseCHale/wifipineapplepager-payloads/issues
+
+
+================================================================================
+                           HALEHOUND EDITION
+================================================================================
+
+     "Security Through Understanding, Protection Through Knowledge"
+
+           Part of the HaleHound Security Research Collection
+
+================================================================================
